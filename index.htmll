@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfólio de Layla Gabrielly Amorim: estudante de Administração, estagiária e iniciante em desenvolvimento web." />
+  <meta name="theme-color" content="#0b1020" />
+  <title>Layla Gabrielly | Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <header class="header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="logo" href="#inicio">LG<span>.</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu">☰</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#sobre">Sobre</a><a href="#projetos">Projetos</a><a href="#jornada">Jornada</a><a href="#contato">Contato</a>
+      </div>
+    </nav>
+  </header>
+  <main id="conteudo">
+    <section class="hero container" id="inicio">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="dot"></span> Em formação em desenvolvimento web</p>
+        <h1>Olá, sou <span class="artistic-signature"><span class="signature-name gradient-text">Layla Gabriell<span class="signature-last-letter">y</span>.</span><span class="signature-trail" aria-hidden="true"><svg viewBox="0 0 280 85" preserveAspectRatio="none"><defs><linearGradient id="trail-gradient"><stop offset="0" stop-color="#c5aaff"/><stop offset=".65" stop-color="#a78bfa"/><stop offset="1" stop-color="#84d9ee"/></linearGradient></defs><path d="M2 16 C58 30 112 34 164 25 S235 27 278 8" stroke="url(#trail-gradient)" stroke-width="2.5" stroke-linecap="round" fill="none"/></svg></span><img class="signature-butterfly" src="borboleta-assinatura.png" alt="" aria-hidden="true" /></span></h1>
+        <h2 class="hero-motto">Mais do que imaginar possibilidades, <span class="gradient-text">quero fazê-las acontecer.</span></h2><p class="lead">Sou estudante de Administração, estagiária e apaixonada por tecnologia. Gosto de entender sistemas e transformar ideias em soluções úteis.</p>
+        <div class="actions"><a class="btn primary" href="#projetos">Explorar projetos <span aria-hidden="true">↗</span></a><a class="btn secondary" href="#contato">Entrar em contato</a></div>
+        <p class="location">Londrina, Paraná · Brasil</p>
+      </div>
+      <div class="hero-art anime-hero">
+        <div class="code-card anime-code"><div class="card-dots"><i></i><i></i><i></i></div><p><span class="purple">const</span> jornada = {</p><p>&nbsp;&nbsp;curiosidade: <span class="green">true</span>,</p><p>&nbsp;&nbsp;foco: <span class="yellow">"Full Stack"</span>,</p><p>&nbsp;&nbsp;status: <span class="yellow">"aprendendo"</span></p><p>};</p><div class="cursor"></div></div>
+      </div>
+    </section>
+    <section class="section alt" id="sobre"><div class="container"><p class="section-label">01 / Sobre mim</p><h2>Uma mente cheia de <span class="gradient-text">ideias.</span></h2><p class="signature-line">Gosto de aprender, criar e descobrir novas possibilidades.</p><div class="about-grid"><p>Estudo <strong>Administração no CEEP Castaldi</strong> e sou estagiária na <strong>NG Telecom</strong>, onde tenho contato com atendimento, organização e sistemas administrativos.</p><p>Estou dando meus primeiros passos no <strong>desenvolvimento web</strong>. Quero aprender a criar ferramentas que facilitem a vida das pessoas.</p></div></div></section>
+    <section class="section" id="projetos"><div class="container"><p class="section-label">02 / Projetos</p><h2>Ideias que estão <span class="gradient-text">ganhando forma.</span></h2><div class="project-grid"><article class="project-card"><div class="project-visual visual-one"><span class="project-symbol">◈</span><strong>EmpregaCEEP</strong><small>Educação • Empregabilidade</small></div><div class="project-body"><p class="status">Projeto escolar em desenvolvimento</p><h3>EmpregaCEEP</h3><p>Idealizei uma plataforma para aproximar estudantes do mercado de trabalho, valorizando talentos, habilidades e evolução acadêmica.</p><div class="tags"><span>Idealização</span><span>Planejamento</span><span>Educação</span></div><a class="btn primary project-link" href="https://heartfelt-llama-91d7d8layla.netlify.app" target="_blank" rel="noopener noreferrer" aria-label="Conhecer EmpregaCEEP em uma nova aba">Conhecer EmpregaCEEP <span aria-hidden="true">↗</span></a></div></article><article class="project-card"><div class="project-visual visual-two"><span>⌘</span><strong>Meu portfólio</strong><small>Primeiro projeto web</small></div><div class="project-body"><p class="status">Projeto de aprendizagem</p><h3>Portfólio pessoal</h3><p>Criei este espaço para apresentar meus projetos e compartilhar minha evolução na tecnologia.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript básico</span></div></div></article></div><p class="note">Projetos em desenvolvimento e aprendizagem.</p></div></section>
+    <section class="section alt" id="jornada"><div class="container"><p class="section-label">03 / Jornada</p><h2>Aprendizado <span class="gradient-text">em construção.</span></h2><div class="timeline"><div><span class="timeline-dot"></span><h3>Formação técnica</h3><p>Ensino Médio Técnico em Administração · conclusão prevista para 2027.</p></div><div><span class="timeline-dot"></span><h3>Experiência profissional</h3><p>NG Telecom · atendimento, organização, planilhas e sistemas internos.</p></div><div><span class="timeline-dot"></span><h3>Próximo capítulo</h3><p>Aprofundar meus estudos em programação e desenvolvimento Full Stack.</p></div></div></div></section>
+    <section class="section contact" id="contato"><div class="container contact-inner"><p class="section-label">04 / Contato</p><h2>Vamos <span class="gradient-text">conectar ideias?</span></h2><p>Aberta a novas conexões, projetos e oportunidades de aprendizado.</p><div class="actions"><a class="btn primary" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" data-placeholder="linkedin">Meu LinkedIn ↗</a><a class="btn secondary" href="https://github.com/" target="_blank" rel="noopener noreferrer" data-placeholder="github">Meu GitHub ↗</a></div><p class="note">Antes de publicar, substitua os links acima pelos endereços dos seus perfis.</p></div></section>
+  </main>
+  <footer class="footer"><div class="container"><span>© <span id="year"></span> Layla Gabrielly Amorim</span><span>Feito com carinho, ideias e vontade de aprender 💜</span></div></footer>
+</body>
+</html>

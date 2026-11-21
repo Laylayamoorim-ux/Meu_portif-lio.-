@@ -1,0 +1,100 @@
+:root{color-scheme:dark;--bg:#0b1020;--bg2:#11182b;--card:#171f35;--text:#f4f5ff;--muted:#b0b8d0;--purple:#a78bfa;--cyan:#6ee7f9;--border:#303a57}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,'Segoe UI',sans-serif;line-height:1.65}a{color:inherit;text-decoration:none}button{font:inherit}.container{width:min(1100px,calc(100% - 40px));margin:auto}.skip{position:absolute;left:-9999px;top:0}.skip:focus{left:10px;z-index:100;background:white;color:black;padding:8px}.header{position:sticky;top:0;z-index:10;background:#0b1020e8;backdrop-filter:blur(15px);border-bottom:1px solid #ffffff12}.nav{display:flex;align-items:center;justify-content:space-between;min-height:72px}.logo{font-size:1.6rem;font-weight:900;letter-spacing:-1px}.logo span{color:var(--purple)}.nav-links{display:flex;gap:26px}.nav-links a{font-size:.92rem;color:var(--muted)}.nav-links a:hover,.nav-links a:focus{color:var(--cyan)}.menu-toggle{display:none;background:none;color:white;border:1px solid var(--border);border-radius:10px;padding:5px 12px;font-size:1.3rem}.hero{min-height:630px;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:35px;padding-top:70px;padding-bottom:90px}.eyebrow,.section-label{font-size:.79rem;text-transform:uppercase;letter-spacing:.16em;color:var(--cyan);font-weight:700}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#58e8a4;margin-right:8px;box-shadow:0 0 15px #58e8a4}h1{font-size:clamp(2.7rem,6vw,5.2rem);line-height:1.09;letter-spacing:-.055em;margin:22px 0}h2{font-size:clamp(2rem,4vw,3.1rem);line-height:1.18;letter-spacing:-.035em;margin:12px 0 28px}h3{margin:0 0 8px;font-size:1.25rem}.gradient-text{background:linear-gradient(105deg,#b39aff,#72d7f3);background-clip:text;-webkit-background-clip:text;color:transparent}.lead{font-size:1.12rem;color:var(--muted);max-width:610px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:12px;padding:12px 20px;font-weight:700;font-size:.93rem;transition:transform .2s,box-shadow .2s}.btn:hover{transform:translateY(-2px)}.primary{background:linear-gradient(110deg,#9b7cf7,#64cfe7);color:#101324;box-shadow:0 8px 30px #9b7cf72a}.secondary{border:1px solid var(--border);background:#ffffff08}.location{font-size:.86rem;color:var(--muted);margin-top:30px}.hero-art{position:relative;min-height:360px;display:grid;place-items:center}.orb{position:absolute;border-radius:50%;filter:blur(5px)}.orb-one{width:270px;height:270px;background:#8b5cf62b;top:10px;left:10px}.orb-two{width:230px;height:230px;background:#0ccfe52a;right:0;bottom:0}.code-card{position:relative;z-index:1;width:min(100%,420px);padding:25px;background:#131b30eF;border:1px solid #7376b36b;border-radius:18px;box-shadow:0 20px 80px #0007;transform:rotate(-3deg);font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:clamp(.76rem,1.8vw,.94rem)}.code-card p{margin:10px 0;color:#dce7ff}.card-dots{display:flex;gap:6px;margin-bottom:23px}.card-dots i{height:9px;width:9px;border-radius:50%;background:#f18b9c}.card-dots i:nth-child(2){background:#f5cb73}.card-dots i:nth-child(3){background:#73ddbd}.purple{color:#c4a6ff}.green{color:#75e8c3}.yellow{color:#ffdb90}.cursor{height:13px;width:7px;background:var(--cyan);animation:blink 1s steps(2) infinite}@keyframes blink{50%{opacity:0}}.section{padding:95px 0;scroll-margin-top:65px}.alt{background:var(--bg2)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px;color:var(--muted);font-size:1.06rem}.about-grid strong{color:var(--text)}.project-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.project-card{overflow:hidden;border:1px solid var(--border);border-radius:20px;background:var(--card);transition:transform .2s,border-color .2s}.project-card:hover{transform:translateY(-4px);border-color:#9d8ce1}.project-visual{height:190px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px}.project-visual span{font-size:2.5rem}.project-visual strong{font-size:1.5rem}.project-visual small{color:#e6e2ff}.visual-one{background:radial-gradient(circle at 25% 30%,#7862b8,#30205c 65%,#1a2141)}.visual-two{background:radial-gradient(circle at 75% 30%,#287d9b,#243568 65%,#1b2041)}.project-body{padding:25px}.project-body p,.timeline p,.contact p{color:var(--muted)}.status{color:#9cead8!important;font-size:.76rem;text-transform:uppercase;letter-spacing:.1em;font-weight:700}.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.tags span{border:1px solid #777da666;border-radius:999px;padding:4px 10px;color:#d9d7ff;font-size:.75rem}.note{font-size:.79rem;color:var(--muted);margin-top:22px}.timeline{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.timeline>div{padding:25px;background:#171f35;border:1px solid var(--border);border-radius:16px}.timeline-dot{display:block;height:12px;width:12px;background:var(--purple);border-radius:50%;margin-bottom:18px;box-shadow:0 0 0 6px #a78bfa1f}.contact-inner{text-align:center;max-width:730px}.contact .actions{justify-content:center}.footer{border-top:1px solid var(--border);padding:25px 0;color:var(--muted);font-size:.82rem}.footer .container{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}a:focus-visible,button:focus-visible{outline:3px solid var(--cyan);outline-offset:3px}@media(max-width:760px){.nav{min-height:65px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:64px;left:0;right:0;background:#11182b;padding:20px;flex-direction:column;border-bottom:1px solid var(--border)}.nav-links.open{display:flex}.hero{grid-template-columns:1fr;gap:10px;padding-top:65px;padding-bottom:60px;min-height:unset}.hero-art{min-height:285px}.code-card{width:min(92%,390px)}.about-grid,.project-grid,.timeline{grid-template-columns:1fr}.section{padding:65px 0}.about-grid{gap:0}.project-visual{height:160px}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+
+/* Identidade pessoal: Mermaidcore + Romantic + Soft Grunge, sem perder o aspecto profissional */
+:root{--bg:#0b0d1b;--bg2:#111225;--card:#18192e;--purple:#b6a1ff;--cyan:#86d9ee;--border:#3b3658}
+body{background:radial-gradient(ellipse 80% 34% at 88% 4%,#33245b38,transparent 72%),var(--bg)}
+.header{background:#0b0d1be8}
+.logo{font-family:Georgia,serif;font-style:italic;font-weight:700;letter-spacing:-.07em}
+.logo::after{content:'✧';font-size:.68rem;color:#9cd9e7;margin-left:8px;vertical-align:top}
+.hero{position:relative}
+.hero::before{content:'';position:absolute;inset:auto 0 0;height:85px;pointer-events:none;opacity:.32;background:radial-gradient(70% 50% at 20% 100%,#6173b855,transparent),radial-gradient(80% 65% at 90% 100%,#7e5baf55,transparent)}
+.hero-art{isolation:isolate}
+.halo-ring{position:absolute;width:290px;height:290px;border:1px solid #b4a2ec50;border-radius:50%;box-shadow:0 0 0 16px #b4a2ec08,0 0 0 36px #81c7df07;transform:rotate(-18deg)}
+.star{position:absolute;color:#c6b4fa;text-shadow:0 0 18px #c4a4ff;animation:twinkle 4s ease-in-out infinite}
+.star-a{top:2%;right:17%;font-size:2.5rem}.star-b{bottom:10%;left:12%;font-size:1.6rem;animation-delay:1s}.star-c{top:19%;left:6%;font-size:1.1rem;animation-delay:2s}
+@keyframes twinkle{50%{opacity:.4;transform:translateY(-6px) rotate(18deg)}}
+.code-card{border-color:#a995d078;box-shadow:0 25px 75px #050514a8,0 0 45px #a17ce51a;background:linear-gradient(145deg,#1c1b36f7,#101b31f5)}
+.gradient-text{background-image:linear-gradient(110deg,#d0b6ff 5%,#9e9efa 45%,#8adfe8 95%)}
+.eyebrow,.section-label{color:#a8d8ec}
+.section-label::before{content:'✧';color:#c9a6f5;margin-right:9px}
+.signature-line{font-family:Georgia,serif;font-style:italic;color:#c7b7e3;letter-spacing:.02em;margin:-8px 0 28px}
+.project-card{box-shadow:0 12px 30px #08091435}
+.project-visual{position:relative;isolation:isolate}
+.project-visual::after{content:'✧  ·  ✦  ·  ✧';position:absolute;top:12px;right:17px;color:#ded0ff9c;letter-spacing:5px;font-size:.7rem}
+.visual-one{background:radial-gradient(ellipse at 20% 15%,#7e68b8,#32245b 58%,#15263d)}
+.visual-two{background:radial-gradient(ellipse at 75% 20%,#407d9b,#2c3867 60%,#1c1b37)}
+.btn.primary{background:linear-gradient(110deg,#ae91f3,#84d2e4)}
+.btn{border-radius:14px}
+.section.alt{background:linear-gradient(160deg,#111225,#15172c 55%,#111225)}
+.little-star{color:#b9a5ff;margin-left:8px}
+@media(max-width:760px){.halo-ring{width:230px;height:230px}.star-a{right:8%}.signature-line{font-size:.95rem}}
+
+/* Borboletas: identidade pessoal em lilás e azul */
+.star{filter:drop-shadow(0 0 10px #a78bfa88);text-shadow:none;animation:butterflyFloat 5s ease-in-out infinite;transform-origin:center}
+.star-b{animation-delay:1.3s}.star-c{animation-delay:2.6s}
+@keyframes butterflyFloat{0%,100%{transform:translateY(0) rotate(-12deg)}50%{transform:translateY(-15px) rotate(12deg)}}
+
+/* Borboletas etéreas: asas translúcidas em lilás e azul */
+.ethereal-butterfly{position:absolute;z-index:3;pointer-events:none;width:94px;height:auto;opacity:.88;filter:drop-shadow(0 0 12px #a88aff70) drop-shadow(0 0 24px #7ddfff45);animation:etherealFlight 7s ease-in-out infinite;transform-origin:center}
+.butterfly-a{top:-9%;right:5%;width:118px}
+.butterfly-b{bottom:-12%;left:1%;width:78px;animation-delay:-2.5s;opacity:.74}
+.butterfly-c{top:15%;left:-9%;width:53px;animation-delay:-4.8s;opacity:.66}
+@keyframes etherealFlight{0%,100%{transform:translate3d(0,0,0) rotate(-11deg) scale(1)}50%{transform:translate3d(13px,-19px,0) rotate(10deg) scale(1.05)}}
+.project-symbol{color:#d6bbff;text-shadow:0 0 18px #a78bfa;font-size:2.8rem}
+@media(max-width:760px){.butterfly-a{right:0;top:-5%;width:88px}.butterfly-b{bottom:-7%;left:0;width:65px}.butterfly-c{left:0;top:12%;width:42px}}
+@media(prefers-reduced-motion:reduce){.ethereal-butterfly{animation:none}}
+
+/* Versão minimalista: sem estrelas decorativas, borboletas em traço fino */
+.logo::after,.section-label::before,.project-visual::after{content:none}
+.ethereal-butterfly{filter:drop-shadow(0 0 8px #a88aff55);opacity:.86}
+.butterfly-a{width:110px}.butterfly-b{width:70px}.butterfly-c{width:48px}
+@media(max-width:760px){.butterfly-a{width:82px}.butterfly-b{width:60px}.butterfly-c{width:40px}}
+/* Borboleta Asa de Seda: preenchimento translúcido e formato orgânico */
+.ethereal-butterfly{opacity:.91;filter:drop-shadow(0 0 10px #b7a2ff55) drop-shadow(0 0 19px #80dbf133)}
+.butterfly-a{width:126px}.butterfly-b{width:78px}.butterfly-c{width:55px}
+@media(max-width:760px){.butterfly-a{width:94px}.butterfly-b{width:65px}.butterfly-c{width:43px}}
+
+/* Ilustração anime escolhida: borboleta principal com brilho discreto. */
+.anime-hero{min-height:520px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:0;overflow:visible}
+.butterfly-frame{width:min(100%,440px);aspect-ratio:1/1;position:relative;z-index:2;border-radius:50%;overflow:hidden;box-shadow:0 0 90px #9772eb30;animation:animeHover 7s ease-in-out infinite}
+.anime-butterfly{width:100%;height:100%;object-fit:cover;display:block;mask-image:radial-gradient(circle,#000 52%,transparent 74%);-webkit-mask-image:radial-gradient(circle,#000 52%,transparent 74%)}
+.anime-code{margin-top:-50px;width:min(90%,340px);z-index:3;transform:rotate(-2deg);padding:18px 22px;box-shadow:0 20px 70px #050514bb}
+.anime-code p{margin:6px 0}.anime-code .card-dots{margin-bottom:12px}
+@keyframes animeHover{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@media(max-width:760px){.anime-hero{min-height:410px}.butterfly-frame{width:min(100%,330px)}.anime-code{margin-top:-36px;width:min(94%,310px)}}
+@media(prefers-reduced-motion:reduce){.butterfly-frame{animation:none}}
+
+/* Borboleta escolhida posicionada junto ao nome, sem imagem gigante abaixo. */
+.name-with-butterfly{display:inline-flex;align-items:center;gap:.06em;vertical-align:middle;max-width:100%}
+.name-butterfly{width:clamp(62px,8vw,104px);height:clamp(62px,8vw,104px);object-fit:cover;border-radius:50%;mix-blend-mode:screen;mask-image:radial-gradient(circle,#000 40%,transparent 71%);-webkit-mask-image:radial-gradient(circle,#000 40%,transparent 71%);filter:drop-shadow(0 0 10px #a78bfa66);animation:nameFlutter 6s ease-in-out infinite;flex-shrink:0}
+.anime-hero{min-height:330px}.anime-code{margin-top:0;width:min(100%,420px)}
+@keyframes nameFlutter{0%,100%{transform:translateY(0) rotate(-7deg)}50%{transform:translateY(-8px) rotate(5deg)}}
+@media(max-width:760px){.name-with-butterfly{gap:0}.name-butterfly{width:65px;height:65px}.anime-hero{min-height:260px}.anime-code{margin-top:0}}
+@media(max-width:380px){.name-butterfly{width:48px;height:48px}}
+@media(prefers-reduced-motion:reduce){.name-butterfly{animation:none}}
+
+/* Assinatura artística: traço nasce do último y e termina na borboleta anime. */
+.artistic-signature{display:inline-block;position:relative;isolation:isolate;padding-right:clamp(55px,8vw,110px);padding-bottom:clamp(38px,5vw,60px);white-space:nowrap;max-width:100%;vertical-align:top}
+.signature-name{position:relative;z-index:2;display:inline-block}
+.signature-last-letter{display:inline}
+.signature-trail{position:absolute;z-index:1;left:calc(100% - clamp(110px,15vw,210px));bottom:0;width:clamp(130px,21vw,280px);height:clamp(40px,6vw,85px);pointer-events:none;filter:drop-shadow(0 0 5px #b49cff99)}
+.signature-trail svg{width:100%;height:100%;display:block}
+.signature-butterfly{position:absolute;z-index:3;right:0;bottom:clamp(14px,3vw,35px);width:clamp(85px,12vw,145px);height:auto;pointer-events:none;filter:drop-shadow(0 0 12px #b49cff66);animation:signatureFlutter 6s ease-in-out infinite}
+@keyframes signatureFlutter{0%,100%{transform:translateY(0) rotate(-8deg)}50%{transform:translateY(-8px) rotate(-3deg)}}
+@media(max-width:760px){h1{font-size:clamp(2.05rem,8vw,3.3rem)}.artistic-signature{padding-right:55px;padding-bottom:44px}.signature-butterfly{width:90px;right:-10px;bottom:17px}.signature-trail{width:145px;height:48px;left:auto;right:0;bottom:0}}
+@media(max-width:400px){h1{font-size:clamp(1.8rem,7.6vw,2.5rem)}.artistic-signature{padding-right:40px}.signature-butterfly{width:76px;right:-5px}}
+@media(prefers-reduced-motion:reduce){.signature-butterfly{animation:none}}
+
+/* Assinatura aprovada: sublinhado luminoso termina na borboleta. */
+.artistic-signature{padding-right:clamp(40px,6vw,75px);padding-bottom:clamp(48px,6vw,72px)}
+.signature-trail{left:2%;right:auto;bottom:3px;width:92%;height:clamp(45px,6vw,75px);filter:drop-shadow(0 0 5px #b49cffaa)}
+.signature-butterfly{right:-6px;bottom:8px;width:clamp(82px,10vw,125px)}
+@media(max-width:760px){.artistic-signature{padding-right:42px;padding-bottom:53px}.signature-trail{left:1%;right:auto;width:100%;height:52px;bottom:2px}.signature-butterfly{width:85px;right:-12px;bottom:7px}}
+@media(max-width:400px){.artistic-signature{padding-right:32px}.signature-butterfly{width:74px;right:-10px}}
+
+/* Botão de acesso ao projeto EmpregaCEEP */
+.project-link{display:inline-flex;margin-top:1.15rem;max-width:100%;text-align:center;justify-content:center;}
+
+/* Frase principal do portfólio */
+.hero-motto { font-size: clamp(1.35rem, 2.6vw, 2.15rem); line-height: 1.25; font-weight: 750; letter-spacing: -.035em; max-width: 680px; margin: 1.2rem 0 .85rem; color: #f5f3ff; }
